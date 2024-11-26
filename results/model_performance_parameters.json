@@ -1,0 +1,24 @@
+[
+    {
+        "parameters": {
+            "preprocessing": {
+                "window_size": 200,
+                "threshold": 0.2,
+                "seconds_after": 200
+            },
+            "split": {
+                "test_size": 0.2,
+                "random_state": 42
+            },
+            "model": {}
+        },
+        "evaluation_metrics": {
+            "mae": 0.16942485332723617,
+            "mse": 0.038686405949410925,
+            "rms": 0.19668860147301603,
+            "r2": 0.9973608497578066,
+            "coefficient": 0.42407477011951283,
+            "intercept": 0.8157530024066109
+        }
+    }
+]
